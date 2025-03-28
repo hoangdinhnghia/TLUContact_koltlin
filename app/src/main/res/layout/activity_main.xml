@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center">
+
+    <ImageView
+        android:id="@+id/img_logo"
+        android:src="@drawable/logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="40dp">
+    </ImageView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TRƯỜNG ĐẠI HỌC THỦY LỢI"
+        android:textStyle="bold"
+        android:textColor="@color/teal_200"
+        android:layout_marginBottom="50dp"
+        android:textSize="25sp">
+
+    </TextView>
+
+    <Button
+        android:id="@+id/btn_donvi"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="DANH BA DON VI"
+        android:textAllCaps="false"
+        android:background="@color/purple_500"
+        android:textSize="24sp"
+        android:textStyle="bold">
+    </Button>
+
+    <Button
+        android:id="@+id/btn_CBNV"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="DANH BA CBNV"
+        android:textAllCaps="false"
+        android:background="@color/purple_500"
+        android:textSize="24sp"
+        android:layout_marginTop="30dp"
+        android:textStyle="bold">
+    </Button>
+</LinearLayout>

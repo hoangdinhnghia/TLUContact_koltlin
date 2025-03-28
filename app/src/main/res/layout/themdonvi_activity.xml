@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <EditText
+        android:id="@+id/edt_tendonvi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_marginTop="80dp"
+        android:inputType="text"
+        android:hint="Ten don vi" />
+
+    <EditText
+        android:id="@+id/edt_sdtdonvi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:hint="SDT" />
+
+    <EditText
+        android:id="@+id/sdt_emaildonvi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:hint="Email" />
+
+
+    <EditText
+        android:id="@+id/edt_diachidonvi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:hint="Dia chi" />
+
+    <Button
+        android:id="@+id/btn_them_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Them" />
+</LinearLayout>

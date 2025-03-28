@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="115dp"
+        android:layout_marginTop="5dp"
+        android:background="@android:color/darker_gray">
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_margin="15dp"
+            android:id="@+id/img_donvi"
+            android:src="@drawable/ic_launcher_foreground"
+            android:background="@color/white"
+            >
+        </ImageView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/txt_name"
+            android:text="Name"
+            android:layout_alignTop="@id/img_donvi"
+            android:layout_toEndOf="@id/img_donvi">
+        </TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/txt_sdt"
+            android:layout_below="@id/txt_name"
+            android:layout_toEndOf="@id/img_donvi"
+            android:layout_marginTop="15dp"
+            android:text="sdt"
+            >
+        </TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/txt_email"
+            android:layout_below="@id/txt_sdt"
+            android:layout_toEndOf="@id/img_donvi"
+            android:layout_marginTop="15dp"
+            android:text="email">
+        </TextView>
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>
